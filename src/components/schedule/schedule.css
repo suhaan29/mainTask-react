@@ -24,3 +24,9 @@
     font-weight: 900;
     border-radius: 20px;
 }
+
+.timeTable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

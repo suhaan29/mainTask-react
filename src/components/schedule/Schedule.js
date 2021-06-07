@@ -1,5 +1,6 @@
 import React from "react"
 import "./schedule.css"
+import Column from "./Column"
 const Schedule = () => {
     return (
         <div className = "parentFor">
@@ -13,7 +14,14 @@ const Schedule = () => {
                 <p>SUN</p>
             </div>
             <div className = "timeTable">
-
+                <Column items = "1"/>
+                <Column items = "4" />
+                <Column items = "4" />
+                <Column items = "3" />
+                <Column items = "4" />
+                <Column items = "2" />
+                <Column items = "4" />
+            
             </div>
         </div>
     )

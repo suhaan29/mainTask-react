@@ -1,0 +1,23 @@
+.cardContainer{
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.cardHeading {
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    
+}
+
+.cardHeading2 {
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    
+}
