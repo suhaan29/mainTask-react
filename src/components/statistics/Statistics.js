@@ -3,7 +3,9 @@ import {CircularProgress } from "@material-ui/core"
 import { useEffect, useState } from "react"
 import "./statistics.css"
 
+import {StarBorderIcon} from '@material-ui/icons/StarBorder';
 
+import Rating from '@material-ui/lab/Rating';
 
 const Statistics = () => {
 
@@ -45,7 +47,12 @@ useEffect(() => {
                 
             <div className = "homework"> 
                 <h4>H/W Rating</h4>
-             
+                <Rating
+          name="customized-empty"
+          defaultValue={4.1}
+          precision={0.5}
+         
+        />
                 <p>4.1</p>
                 <p>Last homework</p>
                 <p>4.5</p>
